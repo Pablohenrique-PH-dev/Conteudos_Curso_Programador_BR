@@ -1,0 +1,38 @@
+body{
+     background-color: black;
+
+}
+
+.card {
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 1px 20px;
+    background: url('../assets/backgorund.png');
+    background-size: cover;
+    margin: auto;
+    margin-top: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.instagram{
+    line-height: 0px;
+    width: 1px;
+    height: 1px;
+    list-style-image: url('../assets/Insta.png');
+}
+.facebook{
+    line-height: 120px;
+    width: 1px;
+    height: 1px;
+    list-style-image: url('../assets/facebook.png');
+}
+.linkedin {
+    line-height: 195px;
+    width: 1px;
+    height: 1px;
+    list-style-image: url('../assets/linkedin.png');
+}

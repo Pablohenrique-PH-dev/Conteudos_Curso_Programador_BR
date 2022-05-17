@@ -1,0 +1,322 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet
+    
+}
+
+.cabeçario{
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    background-color:white; 
+   
+    font-size: 18px;
+
+}
+
+.menu1{
+    position: absolute;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    /* background-color: aliceblue; */
+    top: 10%;
+    left: 300px;
+}
+
+.menu2{
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   /* background-color: aliceblue; */
+    top: 10%;
+    left: 850px;
+}
+
+
+li{
+    text-decoration: none;
+    float: left;
+    /*background-color: blue;*/
+    margin: 11px;
+    font-size: 25px;
+    font-style: italic;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.link_menu1{
+    text-decoration: none;
+    color: gray;
+    
+}
+
+.link_menu2{
+    text-decoration: none;
+    color: gray;
+}
+
+.link_menu1:visited{
+        color: none;
+    
+}
+
+.link_menu2:visited{
+        color: none;
+}
+
+.link_menu1:hover{
+    color: black;
+
+}
+
+.link_menu2:hover{
+    color: black;
+}
+
+.logo{
+    
+ /*   float: none; */
+    margin: auto;
+ /*   display: inline-block; */
+ /*   color: brown; */
+ /*   background-image: url('../assets/inicial/logo_adcg.png'); */
+    background-image: url('../assets/inicial/logo1_adcg.png');
+    list-style-image: url('../assets/inicial/logo1_adcg.png');
+    height: 60px;
+    width: 60px;
+    background-size: cover; 
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    list-style-image: url('../assets/inicial/logo1_adcg.png');
+}
+
+.capa_principal{
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    width: 100%; /* largura do background */
+    background-image: url('../assets/inicial/pupito.jpg');
+    background-repeat:no-repeat ;
+    background-size: cover;
+    padding: 200px;  /* altura do background */
+    box-sizing: border-box;
+
+
+}
+
+.sub_capa_principal{
+    position: absolute;
+    left: 200px;
+    bottom: 100px;
+    
+    
+    font-size: 80px;
+    font-style: italic;
+    color: black;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+
+.sub_link_capa_principal{
+    position: absolute;
+    left: 1000px;
+    bottom: 200px;
+    background-color: none;
+    font-size: 40px;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
+}
+
+.link_sub_link_capa_principal{
+    text-decoration: none;
+    color: red;
+}
+
+
+.link_sub_link_capa_principal:hover{
+color: black;
+background-color: white;
+}
+
+
+
+
+/*  igreja*/
+
+.capa_igreja{
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    width: 100%; /* largura do background */
+    background-image: url('../assets/inicial/IGREJA.jpg');
+    background-repeat:no-repeat ;
+    background-size: cover;
+    padding: 200px;  /* altura do background */
+    box-sizing: border-box;
+
+
+}
+
+.sub_capa_igreja{
+    position: absolute;
+    left: 300px;
+    bottom: 140px;
+    
+    
+    font-size: 200px;
+    font-style: italic;
+    color: white;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/*  eventos*/
+
+.capa_eventos{
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    width: 100%; /* largura do background */
+    background-image: url('../assets/inicial/eventos1.jpg');
+    background-repeat:no-repeat ;
+    background-size: cover;
+    padding: 200px;  /* altura do background */
+    box-sizing: border-box;
+
+
+}
+
+.sub_capa_eventos{
+    position: absolute;
+    left: 200px;
+    bottom: 120px;
+    
+    
+    font-size: 200px;
+    font-style: italic;
+    color: rgb(10, 164, 253);
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/*  mídia*/
+
+.capa_mídia{
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    width: 100%; /* largura do background */
+    background-image: url('../assets/inicial/mídia.jpg');
+    background-repeat:no-repeat ;
+    background-size: cover;
+    padding: 200px;  /* altura do background */
+    box-sizing: border-box;
+
+
+}
+
+.sub_capa_mídia{
+    position: absolute;
+    left: 600px;
+    bottom: 120px;
+    
+    
+    font-size: 200px;
+    font-style: italic;
+    color:white;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/*  congregrações*/
+
+.capa_congregrações{
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    width: 100%; /* largura do background */
+    background-image: url('../assets/inicial/capa3.jpg');
+    background-repeat:no-repeat ;
+    background-size: cover;
+    padding: 200px;  /* altura do background */
+    box-sizing: border-box;
+
+
+}
+
+.sub_capa_congregrações{
+    position: absolute;
+    left: 300px;
+    bottom: 120px;
+    
+    
+    font-size: 200px;
+    font-style: italic;
+    color:black;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*  ministérios*/
+
+.capa_ministérios{
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    width: 100%; /* largura do background */
+    background-image: url('../assets/inicial/ministérios.jpg');
+    background-repeat:no-repeat ;
+    background-size: cover;
+    padding: 200px;  /* altura do background */
+    box-sizing: border-box;
+
+
+}
+
+.sub_capa_ministérios{
+    position: absolute;
+    left: 380px;
+    bottom: 120px;
+    
+    
+    font-size: 200px;
+    font-style: italic;
+    color:black;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*  contatos*/
+
+.capa_contatos{
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    width: 100%; /* largura do background */
+    background-image: url('../assets/inicial/contatos.jpg');
+    background-repeat:no-repeat ;
+    background-size: cover;
+    padding: 200px;  /* altura do background */
+    box-sizing: border-box;
+
+
+}
+
+.sub_capa_contatos{
+    position: absolute;
+    left: 380px;
+    bottom: 120px;
+    
+    
+    font-size: 200px;
+    font-style: italic;
+    color:black;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

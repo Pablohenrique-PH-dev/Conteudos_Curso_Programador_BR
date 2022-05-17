@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadatros</title>
+
+    <link rel="stylesheet" href="../Lista de sorteios/css/style.css">
+
+    <script src="../Lista de sorteios/js/script.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Sorteio de Rifa da UMADCG</h1>
+    </header>
+
+    <main>
+        <div class="title">
+            <h2>Controle de Compradores da Rifa</h2>
+            <br>
+            <span>Campo de Cadastro.</span>
+        </div>
+
+        <div class="card">
+            <div class="lineInput">
+                <label>Participante:</label>
+                <input type="text" id="Participante" placeholder="Participante">
+            </div>
+
+            <div class="lineInput">
+                <label>Numero de Telefone:</label>
+                <input type="number" id="Numero_de_Telefone" placeholder="Numero de Telefone">
+            </div>
+
+            <div class="lineInput">
+                <label>Igreja:</label>
+                <input type="text" id="Igreja" placeholder="Igreja">
+            </div>
+
+            <button onclick="Participante.salvar()" id="btn1">Salvar</button>
+            <button onclick="Participante.cancelar()">Cancelar</button>
+        </div>
+
+        <div class="content">
+            <table border="1">
+                <thead>
+                    <th class="center">ID</th>
+                    <th>Nome Completo</th>
+                    <th>Numero de Telefone</th>
+                    <th>Igreja</th>
+                    <th class="center">Ações</th>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+        </div>
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
